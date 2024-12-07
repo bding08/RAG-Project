@@ -76,7 +76,8 @@ def search(
     import requests
     import json 
     
-    OPENSEARCH_BASE_URL = "http://20.106.192.191:9200"
+    # fill in with opensearch base url
+    OPENSEARCH_BASE_URL = "http://..."
     
     embeddings = []
     with open(embeddings_path.path, 'r') as f:
